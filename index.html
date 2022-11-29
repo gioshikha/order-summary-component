@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary</title>
+    <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon">
+    <style>
+        body{
+        align-items: center;
+        justify-content: center;
+        background-color:#E0E8FF;
+        margin: 0;
+        display: flex;
+        background-image: url( "./pattern-background-desktop.svg" );
+        background-repeat: no-repeat;
+        background-size: 100% 70%;  
+        }
+        .main{
+            height: 697px;
+            width: 450px;
+            border-radius: 20px;
+            background-color: #fff;
+            margin: 0;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+       .text{
+        text-align: center;
+        color: #717FA6;
+        margin-top: 17px;
+        width: 354px;
+        height: 78px;
+        margin-left: 48px;
+
+        
+    }
+    .chapter{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 20px;
+        
+    }
+    .center{
+        justify-content: space-between;
+        display: flex;
+        width: 354px;
+        height: 98px;
+        margin-left: 48px;
+        border-radius: 11px;
+    }
+    .flexy{
+        
+        flex-direction: column;
+        color: #717FA6;
+    }
+    .middle{
+        text-align: center;
+        height: 50px;
+        width: 354px;
+        border-radius: 11px;
+        background-color: #382AE1;
+        margin: 0 auto;
+        justify-content: center;
+        color: #ffffff;
+        margin-top: 32px;
+        display: flex;
+        align-items: center;
+    }
+    .other{
+        text-align: center;
+        margin-top: 32px ;
+        margin-bottom: 48px;
+        color: #717FA6;
+        width:96px ;
+        height:20px ;
+        margin-left: 176px; 
+    }
+    .h1class{
+        color: #1F2E55;
+        text-align: center;
+        margin-top: 45px;
+        Width: 354px;
+        height: 37px;
+        margin-left:48px;
+
+
+    }
+    .pcoloring{
+        color: #1F2E55;
+    }
+    .other:hover{
+        color: #1F2E55;
+        cursor: pointer;
+        
+    }
+    .chclass{
+        display: flex;
+        align-items: center;
+        gap: 8;
+        color: #382AE1;
+    }
+    .chclass:hover{
+        color: #766CF1;
+        cursor: pointer;
+    }
+    .middle:hover{
+        background-color: #766CF1;
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body>       
+    <div class="container">
+        <div class="main">         <img  src="./illustration-hero.svg"/>
+            <h1 class="h1class">Order Summary</h1>
+            <p class="text">You can now listen to millions of songs, audiobooks, and podcasts on any device <br>anywhere you like!</p>
+            <div class="center">
+            <div class="chapter">
+                <img src="./icon-music.svg" />
+                <div>
+                <p class="pcoloring">Annual Plan</p>
+                <p class="flexy">$59.99/year</p> 
+                </div>               
+                </div>
+                <div class="chclass">Change</div>
+            </div>
+            <div class="middle">Proceed to Payment</div>
+            <div class="other">Cancel Order</div>
+        </div>
+    </div>
+</body>
+</html>
